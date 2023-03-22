@@ -1,0 +1,372 @@
+-v verbose
+-r recursive
+-f forcefully
+ . represent current dir
+
+
+Date:- 21-03-23
+linex arciteture  
+application
+shell
+kernal
+hardware
+
+linux filesystem
+/ =root
+home= user data
+bin= command command , application , binary 
+etc= configration file 
+mnt= mount volume
+usr=
+dev= device related data
+var= log for package/software
+opt= otional for install package  
+sbin= adminstarytive command
+root= dir for root user linex created seprate inside root
+temp = tempary file storage 
+boot =bootable file 
+
+mkdir >>>make dir
+mkdir f1 f2 f3
+mkdir -p f1/f2/f3
+mkdir f1{1..100} >>>>>multiple folder/dir
+mkdir -v f >> ouput display while processing 
+
+ls >>print list
+ls -l  >>>>>>> long list
+ls -a  >>>>>>> show all hiden file
+ls -al >>> show all hidden all with hidden
+ls -rl >>>
+ls -i
+ls -k
+ls -s
+ls -r
+ls -h
+ls -g 
+
+xa-v verbose
+-r recursive
+-f forcefully
+ . represent current dir
+
+
+Date:- 21-03-23
+linex arciteture  
+application
+shell
+kernal
+hardware
+
+linux filesystem
+/ =root
+home= user data
+bin= command command , application , binary 
+etc= configration file 
+mnt= mount volume
+usr=
+dev= device related data
+var= log for package/software
+opt= otional for install package  
+sbin= adminstarytive command
+root= dir for root user linex created seprate inside root
+temp = tempary file storage 
+boot =bootable file 
+
+mkdir >>>make dir
+mkdir f1 f2 f3
+
+
+
+
+
+
+
+
+
+
+-v verbose
+-r recursive
+-f forcefully
+ . represent current dir
+
+
+Date:- 21-03-23
+linex arciteture  
+application
+shell
+kernal
+hardware
+
+linux filesystem
+/ =root
+home= user data
+bin= command command , application , binary 
+etc= configration file 
+mnt= mount volume
+usr=
+dev= device related data
+var= log for package/software
+opt= otional for install package  
+sbin= adminstarytive command
+root= dir for root user linex created seprate inside root
+temp = tempary file storage 
+boot =bootable file 
+
+mkdir >>>make dir
+mkdir f1 f2 f3
+mkdir -p f1/f2/f3
+mkdir f1{1..100} >>>>>multiple folder/dir
+mkdir -v f >> ouput display while processing 
+
+ls >>print list
+ls -l  >>>>>>> long list
+ls -a  >>>>>>> show all hiden file
+ls -al >>> show all hidden all with hidden
+ls -rl >>>
+ls -i
+ls -k
+ls -s
+ls -r
+ls -h
+ls -g 
+xa-v verbose
+-r recursive
+-f forcefully
+ . represent current dir
+
+
+Date:- 21-03-23
+linex arciteture  
+application
+shell
+kernal
+hardware
+
+linux filesystem
+/ =root
+home= user data
+bin= command command , application , binary 
+etc= configration file 
+mnt= mount volume
+usr=
+dev= device related data
+var= log for package/software
+opt= otional for install package  
+sbin= adminstarytive command
+root= dir for root user linex created seprate inside root
+temp = tempary file storage 
+boot =bootable file 
+
+mkdir >>>make dir
+mkdir f1 f2 f3
+mkdir -p f1/f2/f3
+mkdir f1{1..100} >>>>>multiple folder/dir
+mkdir -v f >> ouput display while processing 
+
+ls >>print list
+ls -l  >>>>>>> long list
+ls -a  >>>>>>> show all hiden file
+ls -al >>> show all hidden all with hidden
+ls -hal >>> 
+ls -i
+ls -k
+ls -s
+ls -r
+ls -h
+ls -g 
+
+mkdir
+
+
+echo >>>> print mssaage
+echo "vbhsdjvbj" >file.txt				
+echo "hgvcsg" >>file.txt
+
+pwd >>> present work dir show
+cd >>> change dir
+cd .. >>>one step back
+cd ../.. >>>>two step back
+cd ~  return to home dir 
+cd / return to root dir
+cd - jump to previous step of cd 
+
+rm >>> remove 
+rm -r
+rm -rv
+rmdir   [dirname] >>>>only remove dir
+
+
+chgrp
+chmod
+chown 
+useradd
+gzip
+tar
+gunzip
+curl
+wget
+grep
+
+
+
+chmod >>>change mode/ file permission 
+
+u >>>user
+o >>> other
+g  >>> group 
+a >>>> all
+
+r >>>read
+w  >>>write
+x  >>>> execute
+
++ permission add
+- permission remove 
+
+chmod u+rw file
+chmod u+rwx file
+chomd u+w file
+chmod g+rx file 
+chmod g-rwx file
+chmod o+rwx
+chmod o+wx
+
+
+r >>>4
+w >>>2
+x >>1
+
+chmod 777 >>>> all permission to all   
+chmod 400 >>>> read permission 
+chmod 600>>>>r+w owner
+chmod 666 a=w+r
+chmod 444 a =r
+chmod 404 owner +other =read
+chmod 111 all=X
+chmod 000 no permission
+chmod 222 all W
+chmod 333 wx all
+
+gzip >>>> file zip 
+gzip -c filename  -c compress
+gzip -v filename  -v verbose
+gzip 1 to 9 1 ---fast 6-nutral 9----slow
+gzip 1 filename
+gzip 3 filename
+gzip 6 filename
+gzip 9 filename
+
+gzip -d filedame  -d decompress
+
+
+tar >>>>dir convert tar file >>> used for backup 
+
+tar 
+-v >>> verbose
+-z >>> zip 
+-f >>>>file
+-c >>>> create arcica
+-t >>>>>> list out file name insside tar file
+-u >>> update new file in existing tar file 
+-x >>> extract tar/untar tar file
+
+tar [option] [foldername] 
+tar -cvf  [filename.tar] [dir name]
+tar -cvfz [filename.tar.gz] [dir name]
+tar -xvf  [filename.tar/filename.tar.gz]
+tar -tvf [filename.tar]   
+
+
+chgrp [groupname] [filename or dir name] >>>>>change group
+chown [ownername] [filename] >>>>>>>>change owner
+
+
+useradd [option][username] >>>>>>create user with create group name of same as usrname 
+useradd ram 
+useradd -g qa ram >>>>>crate user and add that user inside qa group
+useradd -g qa ram -s /bin/bash >>> crate user ram assign qa as group and shell where this user execute command is bash
+useradd -g qa ram -s /bin/bash -d /home/  >>>>crate user ram assign qa as group  and shell is bash and dir create inside home
+useradd -g qa ram -s /bin/bash -d /home/ -c "for testing perpose "
+
+id ram 
+id gid gassigm
+
+cat /etc/passwd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
