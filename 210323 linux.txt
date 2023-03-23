@@ -43,10 +43,12 @@ ls -s
 ls -r
 ls -h
 ls -g 
+ls -hal
+ls -hl
 
-xa-v verbose
+-v verbose
 -r recursive
--f forcefully
+-f forcefully /file
  . represent current dir
 
 
