@@ -1,0 +1,28 @@
+docker pull img name 
+docker create img name 
+docker stop con_name
+docker start con_name
+docker pause con_name
+docker unpause con_name
+docker ps
+docker ps -al
+docker images
+docker container prune >>>>> remove all stop container
+docker image build -t img_name path of dockerfile 
+docker container kill con_name 
+docker logs con_name 
+docker inspect img_name >>>>metadata
+docker history imgage_name
+docker cp /srcpath   container_ID:/dest
+decker exec -i -t -d con_name /bin/bash >> give access to run command inside running container
+docker attach con_name >>>>>>to see running logs 
+
+
+
+
+
+
+docker run -it --name con_name -p [serverport]: [containerport] /bin/bash
+docker run -d --name con_name -p [serverport]: [containerport] /bin/bash
+docker export contaier_id>filename.tar >>>>> create tar file for running/stop container
+docker import filename.tar img_name >>>>> untar file and build image from file 
